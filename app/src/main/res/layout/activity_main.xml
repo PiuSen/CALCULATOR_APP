@@ -48,8 +48,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/ac"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_margin="12dp"
                 android:backgroundTint="#B5342A"
                 android:text="Ac"
@@ -59,12 +59,12 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/open_bracket"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_margin="12dp"
                 android:backgroundTint="#1C7E75"
                 android:text="("
-                android:textSize="15sp"
+                android:textSize="20sp"
                 app:cornerRadius="36dp" />
 
             <com.google.android.material.button.MaterialButton
@@ -75,18 +75,18 @@
                 android:layout_margin="12dp"
                 android:backgroundTint="#1C7E75"
                 android:text=")"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 app:cornerRadius="36dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/plus"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_margin="12dp"
                 android:backgroundTint="#B1291F"
                 android:text="+"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 app:cornerRadius="36dp" />
         </LinearLayout>
 
@@ -100,8 +100,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/nine"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="9"
                 android:textSize="15sp"
@@ -122,8 +122,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/seven"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="7"
                 android:textSize="15sp"
@@ -133,11 +133,11 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/minus"
                 android:backgroundTint="#C12C21"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="-"
-                android:textSize="20sp"
+                android:textSize="22sp"
                 android:layout_margin="12dp"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
                 />
@@ -152,8 +152,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/six"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="6"
                 android:textSize="15sp"
@@ -163,8 +163,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/five"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="5"
                 android:textSize="15sp"
@@ -174,8 +174,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/four"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="4"
                 android:textSize="15sp"
@@ -185,11 +185,11 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/multiply"
                 android:backgroundTint="#BC3E35"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="*"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:layout_margin="12dp"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
                 />
@@ -215,8 +215,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/two"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="2"
                 android:textSize="15sp"
@@ -226,8 +226,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/one"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="1"
                 android:textSize="15sp"
@@ -237,11 +237,11 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/division"
                 android:backgroundTint="#AA352C"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="/"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:layout_margin="12dp"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
                 />
@@ -255,8 +255,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/zero"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="0"
                 android:layout_marginBottom="-10dp"
@@ -267,33 +267,33 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/percentage"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="%"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:layout_margin="12dp"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
                 />
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/dot"
                 android:backgroundTint="#1C7E75"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="."
-                android:textSize="19sp"
+                android:textSize="23sp"
                 android:layout_margin="12dp"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
                 />
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/equal"
                 android:backgroundTint="#A5423B"
-                android:layout_width="55dp"
-                android:layout_height="55dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 app:cornerRadius="36dp"
                 android:text="="
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:layout_margin="12dp"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
                 />
