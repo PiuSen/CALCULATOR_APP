@@ -13,7 +13,7 @@
         android:layout_above="@id/text2"
         android:id="@+id/text1"
         android:text="00"
-        android:textSize="72sp"
+        android:textSize="52sp"
 
         android:textColor="@color/black"
         />
@@ -21,7 +21,7 @@
         android:id="@+id/text2"
         android:text="00"
         android:gravity="right"
-        android:textSize="82sp"
+        android:textSize="62sp"
         android:layout_above="@id/linearlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -34,14 +34,16 @@
         android:background="#736D6D"
         android:elevation="10dp"
         android:gravity="center"
+        android:padding="0dp"
         android:layout_alignParentBottom="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="5dp"
+          android:layout_marginBottom="-10dp"
+            android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/ac"
@@ -92,7 +94,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="10dp"
+            android:padding="5dp"
+            android:layout_marginBottom="-10dp"
             android:gravity="center">
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/nine"
@@ -143,7 +146,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="10dp"
+            android:padding="5dp"
+            android:layout_marginBottom="-10dp"
             android:gravity="center">
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/six"
@@ -194,7 +198,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="10dp"
+            android:padding="5dp"
+            android:layout_marginBottom="-10dp"
             android:gravity="center">
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/three"
@@ -245,7 +250,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="10dp"
+            android:padding="5dp"
             android:gravity="center">
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/zero"
@@ -254,6 +259,7 @@
                 android:layout_height="55dp"
                 app:cornerRadius="36dp"
                 android:text="0"
+                android:layout_marginBottom="-10dp"
                 android:textSize="15sp"
                 android:layout_margin="12dp"
                 style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
